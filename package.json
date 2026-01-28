@@ -1,0 +1,36 @@
+{
+  "name": "apple-motion-lite",
+  "version": "1.0.0",
+  "description": "Lightweight Apple-style animation library",
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "animation",
+    "apple",
+    "motion",
+    "scroll",
+    "react",
+    "ui"
+  ],
+  "author": "YOUR_NAME",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/athulcoder/apple-motion-lite"
+  },
+  "scripts": {
+"build": "tsup src/index.js --format esm --out-dir dist --clean",
+    "copy": "cp -r src dist"
+  },
+  "devDependencies": {
+    "tsup": "^8.5.1",
+    "typescript": "^5.9.3"
+  }
+}
