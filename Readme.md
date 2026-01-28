@@ -23,7 +23,7 @@ No React re-renders. No heavy dependencies. No bloat.
 
 ##  Demo
 
-> Live demo: https://apple-motion-lite.vercel.app/
+> Live demo: https://athulcoder.github.io/apple-motion-lite/public/
 
 ---
 
